@@ -1,73 +1,127 @@
 ﻿body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f5f5f5;
-    color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #222;
 }
 
 header {
-    background-color: #222;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    padding: 0;
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
 }
 
-    nav a:hover {
-        text-decoration: underline;
-    }
+nav a:hover {
+  color: #aaa;
+}
 
-.product-section {
-    padding: 40px 20px;
-    text-align: center;
+.hero {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero .btn {
+  background-color: #f5f5f5;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background-color: #ddd;
+}
+
+.content {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
 }
 
 .product {
-    background-color: white;
-    display: inline-block;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    width: 200px;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
 }
 
-    .product img {
-        width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
+.order-form, .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.order-form label, .contact-form label {
+  font-weight: bold;
+}
+
+input, select, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
 button {
-    background-color: #0078d7;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
 }
 
-    button:hover {
-        background-color: #005fa3;
-    }
+button:hover {
+  background-color: #333;
+}
+
+.sizing-chart {
+  margin-top: 30px;
+}
+
+.sizing-chart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sizing-chart th, .sizing-chart td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
 
 footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }

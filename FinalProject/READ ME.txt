@@ -1,0 +1,51 @@
+LTA Clothing – Website Idea Board
+
+Overview:
+LTA Clothing is a modern, minimal online store concept focused on selling casual and streetwear apparel. The goal is to build a clean, fast, and simple website that allows users to browse, select, and purchase items without unnecessary steps or clutter.
+
+Planned Features
+
+1. Product Categories
+
+T-Shirts
+
+Hoodies
+
+Pants
+
+Socks
+
+Each category will display product images, prices, and available sizes.
+
+2. Pages
+
+Home Page: Highlights featured items and brand theme.
+
+About Us: Introduces LTA Clothing, brand story, and mission.
+
+Shop: Displays all products with category filters.
+
+Contact: Simple contact form or email link for inquiries.
+
+Order Page: A single-page ordering system allowing customers to select size and quantity, then check out immediately (no cart system).
+
+3. Design Theme
+
+Clean and modern UI that follows a universal design language.
+
+Consistent colors, fonts, and spacing across all pages.
+
+Works across mobile, tablet, and desktop (responsive layout).
+
+4. Functional Elements
+
+Size Options: XS to Small (for prototype).
+
+Sizing Chart Module: Popup or embedded chart for measurements.
+
+Quick Order Form: One-step process for item selection and payment (no cart).
+
+Future Expansion: Later versions can include login, cart, and full checkout flow.
+
+5. Current Working Title
+LTA Clothing
