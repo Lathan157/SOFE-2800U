@@ -125,3 +125,7 @@ footer {
   padding: 15px;
   margin-top: 30px;
 }
+.products a {
+  text-decoration: none;
+  color: black;
+}
