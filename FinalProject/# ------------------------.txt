@@ -1,0 +1,15 @@
+# ------------------------
+# .gitignore
+# ------------------------
+FinalProject/Video/
+*.mp4
+*.mov
+*.zip
+*.rar
+*.log
+
+# Editor / System files
+.vscode/
+.DS_Store
+Thumbs.db
+# -----------------------
